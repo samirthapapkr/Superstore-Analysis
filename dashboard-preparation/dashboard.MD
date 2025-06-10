@@ -39,6 +39,7 @@ Targeted SQL queries regarding various business questions can be **[found](https
 ## Data Structure and Initial Checks
 
 Superstore database structure as seen below consists of four tables: orders, customers, location and products with a total row count of 13,313 records.
+![Entity Relationship Diagram](img/erd.png)
 Prior to beginning the analysis, a variety of checks were conducted for quality control and familiarization with the datasets. The SQL queries utilized to inspect and perform quality checks can be found here.
 
 
@@ -52,23 +53,24 @@ The key metrics such as total sales, customer count, sales per customer, and  or
 
 Below is the overview page from the tableau dashboard and more examples are included through the report. The entire dashboard can be viewed here.
 
-1. **Sales Trends**:
+1. **Sales Trends**
 - The company shows consistent growth over previous year as the total sales in 2023 reached $733K, showing a 20.36% increase compared to 2022, reflecting healthy business expansion.
 - The highest sales are observed on holiday seasons. A 26.83% increase in total quantity sold(12,476units) indicates improved customer acquisition and potentially better product-market fit. 
 - The profits rose to 93k which is a 14.24% increase over previous year suggesting efficient cost management and better product pricing strategies.
 
-2. Product Performance
+2. **Product Performance**
 - Categories like chairs, copiers and phones performed exceptionally well in terms of both sales and profitability.
 - Tables and machines show losses despite sales, signaling potential pricing or cost issues.
 - The subcategories with most significant positive change in sales from the previous year include Bookcases and Binders reflecting shifting customer preferences.
 - Subcategories with high sales but low profit margins should be monitored.  Promotions and discounts might be eroding profitability in these areas.
+![Sales Dashboard](img/sales-dashboard.png)
 
-3. Customer Behavior
+3. **Customer Behavior**
 - The total customer base increased to 693, a growth of 8.62% over the prior year which reflects strong customer acquisition strategies.
 - Average sales per customer reached $1,058 and orders per customer were $1,687 indicating increased consumer spending and engagement.
 - A small number of customers placed 4 or more orders, indicating a small loyal segment that drives higher value.
 - Some key customers contributed significantly to profit and sales, with clear visibility into their order count and last purchase date which can help tailor loyalty programs or targeted campaigns.
-
+![Customer Dashboard](img/customer-dashboard.png)
 ---
 
 ## Recommendations:
