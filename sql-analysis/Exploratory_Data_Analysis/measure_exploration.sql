@@ -1,10 +1,15 @@
---Find the youngest and oldest customer based on birthdate 
-SELECT
-MIN(birthdate) AS oldest_birthdate,
-EXTRACT(YEAR FROM AGE(MIN(birthdate))) AS oldest_age,
-MAX(birthdate) AS youngest_birthdate,
-EXTRACT(YEAR FROM AGE(MAX(birthdate))) AS youngest_age
-FROM gold.dim_customers
+/*
+===============================================================================
+Measures Exploration (Key Metrics)
+===============================================================================
+Purpose:
+    - To calculate aggregated metrics (e.g., totals, averages) for quick insights.
+    - To identify overall trends or spot anomalies.
+
+SQL Functions Used:
+    - COUNT(), SUM(), AVG()
+===============================================================================
+*/
 
 
 --Find the Total Sales
