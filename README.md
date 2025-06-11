@@ -55,7 +55,7 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
 ---
 
-[### Data Analysis (Exploratory & Advanced Analytics)](sql-analysis)
+[***Data Analysis (Exploratory & Advanced Analytics)***](sql-analysis)
 
 1. [**Exploratory Data Analysis (EDA)**](sql-analysis/Exploratory_Data_Analysis)
 - Understand dataset structure
@@ -64,7 +64,7 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 - Descriptive statistics
 - Category-wise trends (Sales, Profit, Quantity)
 
-2. [**Advanced SQL Analytics**](sql-analysis/Advanced Analytics)
+2. [**Advanced SQL Analytics**](sql-analysis/Advanced_Analytics)
 - Window functions for running totals, moving averages
 - Cohort analysis for customer retention
 - RFM analysis (Recency, Frequency, Monetary)
@@ -74,7 +74,7 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
 ---
 
-[### Data Visualization (Dashboarding)](dashboard-preparation)
+[***Data Visualization (Dashboarding)***](dashboard-preparation)
 
 **Tableau Dashboard**
 - Interactive dashboard answering key business questions
