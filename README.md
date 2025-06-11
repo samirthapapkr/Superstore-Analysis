@@ -17,8 +17,8 @@ Creating an interactive dashboard in Tableau and business reports for decision-m
 
 ---
 
-**Data Warehousing**
-#### Objective
+[**Data Warehousing**](data-warehouse)
+
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
 1. [**Bronze Layer**](data-warehouse/scripts/bronze)
@@ -28,7 +28,7 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 - Transformations: No transformations
 - Data Modeling: No data model
 
-2. **Silver Layer**
+2. [**Silver Layer**](data-warehouse/scripts/silver)
 - Purpose: Prepares data for analytical consumption by cleaning and enriching.
 - Object Type: Tables
 - Load Type: Batch processing, Full load using Truncate & Insert
@@ -40,7 +40,7 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
    - Data enrichment (e.g., joining external lookup tables)
    - Data Modeling: No formal data model yet
 
-3.**Gold Layer**
+3. [**Gold Layer**](data-warehouse/scripts/gold)
 - Purpose: Delivers final datasets for BI, analytics, and reporting.
 - Object Type: Views
 - Load Type: No physical data load (computed views on demand)
@@ -55,16 +55,16 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
 ---
 
-### Data Analysis (Exploratory & Advanced Analytics)
+[### Data Analysis (Exploratory & Advanced Analytics)](sql-analysis)
 
-1. **Exploratory Data Analysis (EDA)**
+1. [**Exploratory Data Analysis (EDA)**](sql-analysis/Exploratory_Data_Analysis)
 - Understand dataset structure
 - Missing value analysis
 - Outlier detection
 - Descriptive statistics
 - Category-wise trends (Sales, Profit, Quantity)
 
-2. **Advanced SQL Analytics**
+2. [**Advanced SQL Analytics**](sql-analysis/Advanced Analytics)
 - Window functions for running totals, moving averages
 - Cohort analysis for customer retention
 - RFM analysis (Recency, Frequency, Monetary)
@@ -74,7 +74,7 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
 ---
 
-### Data Visualization (Dashboarding)
+[### Data Visualization (Dashboarding)](dashboard-preparation)
 
 **Tableau Dashboard**
 - Interactive dashboard answering key business questions
