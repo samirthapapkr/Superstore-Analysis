@@ -22,23 +22,36 @@ Creating an interactive dashboard in Tableau and business reports for decision-m
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
 1. **Bronze Layer**
-- Raw ingestion of the Superstore dataset (CSV format).
-- Minimal transformation.
-- Focus: data persistence, schema consistency.
+- Purpose: Raw ingestion of source data without any modifications.
+- Object Type: Tables
+- Load Type: Batch processing, Full load using Truncate & Insert
+- Transformations: No transformations
+- Data Modeling: No data model
 
 2. **Silver Layer**
-- Cleaned and standardized data.
-- Null handling, data type conversions, and basic derived columns.
-- Dimensional modeling started (e.g., date dimensions, product hierarchies).
+- Purpose: Prepares data for analytical consumption by cleaning and enriching.
+- Object Type: Tables
+- Load Type: Batch processing, Full load using Truncate & Insert
+- Transformations Include:
+✅ Data cleaning (e.g., null handling, deduplication)
+✅ Data standardization (e.g., consistent formats, casing)
+✅ Data normalization (e.g., splitting full names, unpivoting)
+✅ Derived columns (e.g., profit margin, order month)
+✅ Data enrichment (e.g., joining external lookup tables)
+- Data Modeling: No formal data model yet
 
 3.**Gold Layer**
-- Finalized tables used for analysis and reporting.
-- Includes:
-- Profitability by Region/Product
--Customer segmentation
-- Time-series sales trends
-- Fully optimized for downstream BI tools.
-- Tools Used: Postresql
+- Purpose: Delivers final datasets for BI, analytics, and reporting.
+- Object Type: Views
+- Load Type: No physical data load (computed views on demand)
+- Transformations Include:
+✅ Data integration (combining multiple silver tables)
+✅ Aggregations (e.g., monthly sales by region)
+✅ Business logic implementation (e.g., profit classification)
+- Data Modeling:
+✅ Star schema (fact and dimension tables)
+✅ Flat tables (denormalized for dashboards)
+✅ Aggregated tables (for KPI performance)
 
 ---
 
