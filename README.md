@@ -21,7 +21,7 @@ Creating an interactive dashboard in Tableau and business reports for decision-m
 #### Objective
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
-1. [!**Bronze Layer**](data-warehouse/scripts/bronze)
+1. [**Bronze Layer**](data-warehouse/scripts/bronze)
 - Purpose: Raw ingestion of source data without any modifications.
 - Object Type: Tables
 - Load Type: Batch processing, Full load using Truncate & Insert
