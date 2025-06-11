@@ -21,7 +21,7 @@ Creating an interactive dashboard in Tableau and business reports for decision-m
 #### Objective
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
-1. **Bronze Layer**
+1. [!**Bronze Layer**](data-warehouse/scripts/bronze)
 - Purpose: Raw ingestion of source data without any modifications.
 - Object Type: Tables
 - Load Type: Batch processing, Full load using Truncate & Insert
@@ -45,13 +45,13 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 - Object Type: Views
 - Load Type: No physical data load (computed views on demand)
 - Transformations Include:
-✅ Data integration (combining multiple silver tables)
-✅ Aggregations (e.g., monthly sales by region)
-✅ Business logic implementation (e.g., profit classification)
+   - Data integration (combining multiple silver tables)
+   - Aggregations (e.g., monthly sales by region)
+   - Business logic implementation (e.g., profit classification)
 - Data Modeling:
-✅ Star schema (fact and dimension tables)
-✅ Flat tables (denormalized for dashboards)
-✅ Aggregated tables (for KPI performance)
+   - Star schema (fact and dimension tables)
+   - Flat tables (denormalized for dashboards)
+   - Aggregated tables (for KPI performance)
 
 ---
 
@@ -77,7 +77,7 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 ### Data Visualization (Dashboarding)
 
 **Tableau Dashboard**
-- Interactive dashboard answering key business questions:
+- Interactive dashboard answering key business questions
 - Regional and Segment-based performance
 - Top-selling and underperforming products
 - Sales vs. Profit heatmaps
@@ -89,16 +89,12 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 ---
 
 
-## 🛠️ Important Links & Tools:
+## 🛠️ Important Tools:
 
-Everything is for Free!
-- **[Datasets](datasets/):** Access to the project dataset (csv files).
-- **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Lightweight server for hosting your SQL database.
-- **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16):** GUI for managing and interacting with databases.
-- **[Git Repository](https://github.com/):** Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
-- **[DrawIO](https://www.drawio.com/):** Design data architecture, models, flows, and diagrams.
-- **[Notion](https://www.notion.com/):** All-in-one tool for project management and organization.
-- **[Notion Project Steps](https://thankful-pangolin-2ca.notion.site/SQL-Data-Warehouse-Project-16ed041640ef80489667cfe2f380b269?pvs=4):** Access to All Project Phases and Tasks.
-
+- **Postgresql Server PgAdmin4:** Server for managing and administering PostgreSQL databases
+- **Tableau:** Visualization tool for preparing dashboard and KPIs
+- **Github:**  Manage, version, collaborate and host scripts providing documentation efficiently.
+- **DrawIO:** Design data architecture, models, flows, and diagrams.
+ 
 ---
 
