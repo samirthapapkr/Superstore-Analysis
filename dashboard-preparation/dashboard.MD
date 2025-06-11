@@ -27,11 +27,11 @@ Present the top 10 customers who have generated the highest profits for the comp
 
 An interactive tableau dashboard can be **[viewed](https://public.tableau.com/views/SalesDashboard_17473827691380/SalesDashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** here.
 
-The sql queries utilized to inspect and perform quality check can be **[found](Superstore-Analysis/data-warehouse/tests)** here.
+The sql queries utilized to inspect and perform quality check can be **[found](https://github.com/samirthapapkr/Superstore-Analysis/tree/main/data-warehouse/tests)** here.
 
-The SQL queries utilized to clean, organize and prepare data for the dashboard can be **[found](Superstore-Analysis/data-warehouse)** here.
+The SQL queries utilized to clean, organize and prepare data for the dashboard can be **[found](https://github.com/samirthapapkr/Superstore-Analysis/tree/main/data-warehouse)** here.
 
-Targeted SQL queries regarding various business questions can be **[found](Superstore-Analysis/sql-analysis)** here.
+Targeted SQL queries regarding various business questions can be **[found](https://github.com/samirthapapkr/Superstore-Analysis/tree/main/sql-analysis)** here.
 
 
 ---
