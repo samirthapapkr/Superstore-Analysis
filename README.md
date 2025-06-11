@@ -1,41 +1,77 @@
 # Superstore-Analysis
 
-This project performs comprehensive analysis on Superstore data from building a data warehouse to generating visual reports.
+This repository is part of a comprehensive data analytics pipeline for the popular Superstore dataset. The project is divided into three main repositories that together demonstrate a complete data analytics lifecycle—from raw data ingestion to business insights and visual storytelling.
 
 ---
+
+**Repository Overview**
+
+1. **Data Warehouse**
+Cleaning, transforming, and structuring raw data into bronze, silver, and gold layers.
+
+2. **Data Analysis**
+Conducting Exploratory Data Analysis (EDA) and advanced SQL-based analytics.
+
+3. **Data Visualization**
+Creating an interactive dashboard in Tableau and business reports for decision-making.
+
+---
+
 **Data Warehousing**
 #### Objective
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
-#### Specifications
-- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
-- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
-- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
-- **Scope**: Focus on the latest dataset only; historization of data is not required.
-- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+1. **Bronze Layer**
+- Raw ingestion of the Superstore dataset (CSV format).
+- Minimal transformation.
+- Focus: data persistence, schema consistency.
 
-Organize, Structure and Prepare
-- ELT/ETL Processing
-- Data Architecture
-- Data Integration
-- Data Cleansing
-- Data Load
-- Data Modeling
+2. **Silver Layer**
+- Cleaned and standardized data.
+- Null handling, data type conversions, and basic derived columns.
+- Dimensional modeling started (e.g., date dimensions, product hierarchies).
+
+3.**Gold Layer**
+- Finalized tables used for analysis and reporting.
+- Includes:
+- Profitability by Region/Product
+-Customer segmentation
+- Time-series sales trends
+- Fully optimized for downstream BI tools.
+- Tools Used: Postresql
 
 ---
-### BI: Analytics & Reporting (Data Analysis)
 
-#### Objective
-Develop SQL-based analytics to deliver detailed insights into:
-- **Customer Behavior**
-- **Product Performance**
-- **Sales Trends**
+### Data Analysis (Exploratory & Advanced Analytics)
 
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
+1. **Exploratory Data Analysis (EDA)**
+- Understand dataset structure
+- Missing value analysis
+- Outlier detection
+- Descriptive statistics
+- Category-wise trends (Sales, Profit, Quantity)
+
+2. **Advanced SQL Analytics**
+- Window functions for running totals, moving averages
+- Cohort analysis for customer retention
+- RFM analysis (Recency, Frequency, Monetary)
+- Market Basket Analysis using association rules (optional)
+- Profit margin trends by segment, category, sub-category
+- Tools Used: Postgresql
+
+---
+
+### Data Visualization (Dashboarding)
+
+**Tableau Dashboard**
+- Interactive dashboard answering key business questions:
+- Regional and Segment-based performance
+- Top-selling and underperforming products
+- Sales vs. Profit heatmaps
+- Monthly/Quarterly Sales trends
 
 
 ![Data Analysis Project](sqlproject.png)
-
 
 ---
 
