@@ -33,31 +33,8 @@ Develop SQL-based analytics to deliver detailed insights into:
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
 
-**Exploratory Data Analysis**
-Understand Data
-- Basic Queries
-- Data Profiling
-- Simple Aggregations
-- Subquery
 
----
-
-**Advanced Data Analytics**
-Answer Business Questions
-- Complex Queries
-- Window Functions
-- CTE
-- Subqueries
-- Reports
-
----
-
-**Dashboard Report**
-Display Visual Report
-- Metrics
-- KPIs
-- Trends
-- Recommendations
+![Data Analysis Project](sqlproject.png)
 
 
 ---
