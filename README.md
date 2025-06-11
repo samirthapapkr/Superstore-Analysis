@@ -33,12 +33,12 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 - Object Type: Tables
 - Load Type: Batch processing, Full load using Truncate & Insert
 - Transformations Include:
-✅ Data cleaning (e.g., null handling, deduplication)
-✅ Data standardization (e.g., consistent formats, casing)
-✅ Data normalization (e.g., splitting full names, unpivoting)
-✅ Derived columns (e.g., profit margin, order month)
-✅ Data enrichment (e.g., joining external lookup tables)
-- Data Modeling: No formal data model yet
+   - Data cleaning (e.g., null handling, deduplication)
+   - Data standardization (e.g., consistent formats, casing)
+   - Data normalization (e.g., splitting full names, unpivoting)
+   - Derived columns (e.g., profit margin, order month)
+   - Data enrichment (e.g., joining external lookup tables)
+   - Data Modeling: No formal data model yet
 
 3.**Gold Layer**
 - Purpose: Delivers final datasets for BI, analytics, and reporting.
