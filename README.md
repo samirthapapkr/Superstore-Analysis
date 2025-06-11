@@ -1,6 +1,6 @@
 # Superstore-Analysis
 
-This repository is part of a comprehensive data analytics pipeline for the popular Superstore dataset. The project is divided into three main repositories that together demonstrate a complete data analytics lifecycle—from raw data ingestion to business insights and visual storytelling.
+This repository is part of a comprehensive data analytics pipeline for the popular Superstore dataset. The project is divided into three main repositories that together demonstrate a complete data analytics lifecycle — from raw data ingestion to business insights and visual storytelling.
 
 ---
 
@@ -19,7 +19,7 @@ Creating an interactive dashboard in Tableau and business reports for decision-m
 
 [**Data Warehousing**](data-warehouse)
 
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+Develop a modern data warehouse using PostgreSQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
 1. [**Bronze Layer**](data-warehouse/scripts/bronze)
 - Purpose: Raw ingestion of source data without any modifications.

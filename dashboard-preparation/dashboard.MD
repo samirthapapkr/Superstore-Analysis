@@ -25,13 +25,13 @@ The dashboards are split into:
 **Top 10 customer by Profit**
 Present the top 10 customers who have generated the highest profits for the company along with additional information like rank, number of orders, current sales and last order date.
 
-An interactive tableau dashboard can be **[viewed](https://github.com/):** here.
+An interactive tableau dashboard can be **[viewed](https://public.tableau.com/views/SalesDashboard_17473827691380/SalesDashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** here.
 
-The sql queries utilized to inspect and perform quality check can be **[found](https://github.com/):** here.
+The sql queries utilized to inspect and perform quality check can be **[found](data-warehouse/tests)** here.
 
-The SQL queries utilized to clean, organize and prepare data for the dashboard can be **[found](https://github.com/):** here.
+The SQL queries utilized to clean, organize and prepare data for the dashboard can be **[found](data-warehouse)** here.
 
-Targeted SQL queries regarding various business questions can be **[found](https://github.com/):** here.
+Targeted SQL queries regarding various business questions can be **[found](sql-analysis):** here.
 
 
 ---
@@ -41,8 +41,6 @@ Targeted SQL queries regarding various business questions can be **[found](https
 Superstore database structure as seen below consists of four tables: orders, customers, location and products with a total row count of 13,313 records.
 
 ![Entity Relationship Diagram](img/erd.png)
-Prior to beginning the analysis, a variety of checks were conducted for quality control and familiarization with the datasets. The SQL queries utilized to inspect and perform quality checks can be found here.
-
 
 ---
 
