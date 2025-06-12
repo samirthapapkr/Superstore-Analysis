@@ -64,7 +64,7 @@ Superstore database structure as seen below consists of four tables: orders, cus
 
 3. **Customer Behavior**
 - The total customer base increased to 693, a growth of 8.62% over the prior year which reflects strong customer acquisition strategies.
-- Average sales per customer reached $1,058 and orders per customer were $1,687 indicating increased consumer spending and engagement.
+- Average sales per customer reached $1,058 and orders per customer were 1,687 indicating increased consumer spending and engagement.
 - A small number of customers placed 4 or more orders, indicating a small loyal segment that drives higher value.
 - Some key customers contributed significantly to profit and sales, with clear visibility into their order count and last purchase date which can help tailor loyalty programs or targeted campaigns.
 
