@@ -48,10 +48,6 @@ Superstore database structure as seen below consists of four tables: orders, cus
 
 ## Overview of Findings
 
-The key metrics such as total sales, customer count, sales per customer, and  orders per customer demonstrate positive growth compared to the previous year. The total sales reached $733k with a 20.36% increase, while a customer count rose to 693, reflecting an 8.62% growth. Notable improvements were also observed in average order values and total quantity sold, indicating a healthier engagement across the customer base. Monthly and weekly trend analyses reveal performance fluctuations throughout the year, with specific periods outperforming others. Additionally, product subcategory analysis highlights top-performing and underperforming segments, while customer distribution analysis offers insights into buying behaviors and loyalty levels. The identification of top 10 high-value customers based on profit provides critical inputs for strategic targeting and retention.
-
-Below is the overview page from the tableau dashboard and more examples are included through the report. The entire dashboard can be viewed here.
-
 1. **Sales Trends**
 - The company shows consistent growth over previous year as the total sales in 2023 reached $733K, showing a 20.36% increase compared to 2022, reflecting healthy business expansion.
 - The highest sales are observed on holiday seasons. A 26.83% increase in total quantity sold(12,476units) indicates improved customer acquisition and potentially better product-market fit. 
